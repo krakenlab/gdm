@@ -2,11 +2,13 @@ PATH
   remote: .
   specs:
     gdm (0.1.0)
+      uname (= 1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     rake (13.0.3)
+    uname (1.0)
 
 PLATFORMS
   x86_64-linux
