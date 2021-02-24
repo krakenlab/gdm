@@ -26,4 +26,5 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency 'uname', '1.0'
+  spec.add_dependency 'rubyzip', '2.3.0'
 end

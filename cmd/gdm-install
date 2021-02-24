@@ -3,4 +3,5 @@
 
 require 'gdm'
 
-GDM.create_workspace
+GDM::Workspace.create
+GDM::Editor.install

@@ -2,12 +2,14 @@ PATH
   remote: .
   specs:
     gdm (3.2.3)
+      rubyzip (= 2.3.0)
       uname (= 1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     rake (13.0.3)
+    rubyzip (2.3.0)
     uname (1.0)
 
 PLATFORMS
