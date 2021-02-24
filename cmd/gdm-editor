@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'gdm'
+
+exe = if GDM::Platform.windows?
+  GDM::Platform.windows_editor_filename
+elsif GDM::Platform.linux?
+  GDM::Platform.linux_editor_filename
+end
+
+system(exe, *ARGV)
