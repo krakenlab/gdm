@@ -9,4 +9,5 @@ elsif GDM::Platform.linux?
   GDM::Platform.linux_editor_filename
 end
 
+puts("starting #{exe}")
 system(exe, *ARGV)

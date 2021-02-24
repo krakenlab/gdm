@@ -4,6 +4,6 @@
 require 'gdm'
 
 if GDM::Platform.linux?
-  system(GDM::Platform.linux_headless_filename, *ARGV)
+  puts("starting #{GDM::Platform.linux_server_filename}")
+  system(GDM::Platform.linux_server_filename, *ARGV)
 end
-
