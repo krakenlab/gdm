@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gdm (0.1.0)
+    gdm (3.2.3)
       uname (= 1.0)
 
 GEM
