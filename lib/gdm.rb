@@ -2,6 +2,6 @@
 
 require_relative 'gdm/version'
 
-module Gdm
+module GDM
   class Error < StandardError; end
 end

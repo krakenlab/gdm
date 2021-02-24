@@ -4,7 +4,7 @@ require_relative 'lib/gdm/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'gdm'
-  spec.version       = Gdm::VERSION
+  spec.version       = GDM::VERSION
   spec.authors       = ['Marlon Henry Schweigert']
   spec.email         = ['marlon.schweigert@krakenlab.io']
 

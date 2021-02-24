@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
-module Gdm
-  VERSION = '0.1.0'
+module GDM
+  VERSION = '3.2.3'
+  GODOT = ENV['GODOT'] || VERSION
 end
